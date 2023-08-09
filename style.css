@@ -1,0 +1,57 @@
+.upward-moving{
+    width: 50px;
+    height: 150px;
+    background-color: blue;
+    /* margin: 10px; */
+    
+}
+.upwad-moving{
+    width: 50px;
+    height: 150px;
+    background-color: blue;
+    /* margin: 10px; */
+    
+}
+.downward-moving{
+    width: 50px;
+    height: 150px;
+    background-color: blue;
+    /* margin: 10px; */
+    
+}
+.downwad-moving{
+    width: 50px;
+    height: 150px;
+    background-color: blue;
+    /* margin: 10px; */
+    
+}
+.wrap{
+    display: flex;
+    gap: 50px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+@keyframes moveUp{
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-100px);}
+
+}
+.upward-moving{
+    animation: moveUp 2s infinite alternate;
+}
+.downward-moving{
+    animation: moveUp 2s infinite alternate;
+}
+
+@keyframes moveDown{
+    0% {transform: translateY(0);}
+    100% {transform: translateY(100px);}
+
+}
+.downwad-moving{
+    animation: moveDown 2s infinite alternate;
+}
+.upwad-moving{
+    animation: moveDown 2s infinite alternate;
+}
